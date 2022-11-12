@@ -1,10 +1,76 @@
 .App {
   text-align: center;
+  background-color: beige;
+  align-items: center;
+  padding-top: 20px;
 }
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+
+.prodDetails{
+  width: 900px;
+  padding: 50px;
+  margin: 10px 10px;
+  border: 1px solid #CCC;
+  background-color: #FFF;
+  border-radius: 5px;
+}
+.prodDetails p{
+  padding-bottom: 30px;
+}
+.prodImg{
+  width: 350px;
+  max-height: 350px;
+  margin: 0 60px 0px 10px;
+}
+
+.addCartBtn{
+  float: left;
+  background-color: #E2E5DE;
+  padding: 2px 8px;;
+  font-size:x-large;
+  cursor: pointer;
+}
+.addCartTxt{
+  float: left;
+  background-color: #FFF;
+  padding: 2px 8px;;
+  width: 30px;
+  font-size:x-large;
+}
+
+.backBtn{
+  text-align: right;
+  float: right;
+}
+
+.prodList{
+  
+  width: 250px;
+  height: 310px;
+  /*float: left;*/
+  padding: 5px;
+  margin: 4px 2px;
+  border: 1px solid #CCC;
+  background-color: #FFF;
+  border-radius: 5px;
+}
+
+.prodTitle{
+  padding: 2px;
+  height: 35px;;
+}
+
+.prodList img{
+  max-width: 150px;
+  height: 150px;
+}
+
+.btnc{
+  background-color: cornflowerblue;
 }
 
 @media (prefers-reduced-motion: no-preference) {
